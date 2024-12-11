@@ -27,7 +27,7 @@ namespace WindowsFormsApp8
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) // проверка авторизации, правильно ли  введен логин и пароль,если нет то выводит ошибку попробуйте еще раз.
         {
             string log = textBox1.Text;
             string pass = textBox2.Text;
